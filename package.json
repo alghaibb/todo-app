@@ -6,8 +6,7 @@
     "start:api": "cd TodoApp.API && dotnet run",
     "start:client": "cd TodoApp.Client && npm start",
     "install:client": "cd TodoApp.Client && npm install",
-    "build:client": "cd TodoApp.Client && npm run build",
-    "test:client": "cd TodoApp.Client && npm test"
+    "build:client": "cd TodoApp.Client && npm run build"
   },
   "keywords": [
     "angular",

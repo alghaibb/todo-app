@@ -1,0 +1,20 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A simple Todo application with Angular frontend and ASP.NET Core backend",
+  "scripts": {
+    "start:api": "cd TodoApp.API && dotnet run",
+    "start:client": "cd TodoApp.Client && npm start",
+    "install:client": "cd TodoApp.Client && npm install",
+    "build:client": "cd TodoApp.Client && npm run build",
+    "test:client": "cd TodoApp.Client && npm test"
+  },
+  "keywords": [
+    "angular",
+    "dotnet",
+    "todo",
+    "fullstack"
+  ],
+  "author": "",
+  "license": "MIT"
+}

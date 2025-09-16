@@ -1,14 +1,19 @@
+$container-max: 800px;
+$space-4: 1.5rem;
+$muted: #888;
+
 html,
 body {
   height: 100%;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 
 .container {
-  max-width: 800px;
+  max-width: $container-max;
   margin: 0 auto;
   padding: 20px;
 }
@@ -16,13 +21,11 @@ body {
 .text-center {
   text-align: center;
 }
-
 .mt-4 {
-  margin-top: 1.5rem;
+  margin-top: $space-4;
 }
-
 .mb-4 {
-  margin-bottom: 1.5rem;
+  margin-bottom: $space-4;
 }
 
 .form-container {
@@ -30,10 +33,10 @@ body {
   flex-direction: row;
   align-items: center;
   gap: 16px;
-}
 
-.form-field {
-  flex: 1;
+  .form-field {
+    flex: 1;
+  }
 }
 
 .todo-item {
@@ -41,15 +44,15 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-}
 
-.completed {
-  text-decoration: line-through;
-  color: #888;
+  &.completed {
+    text-decoration: line-through;
+    color: $muted;
+  }
 }
 
 .no-todos {
   text-align: center;
   padding: 20px;
-  color: #888;
+  color: $muted;
 }

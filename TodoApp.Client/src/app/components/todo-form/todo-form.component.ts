@@ -34,19 +34,8 @@ import { TodoService } from '../../services/todo.service';
       </div>
     </form>
   `,
-  styles: [`
-    .form-container {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 16px;
-    }
-    
-    .form-field {
-      flex: 1;
-    }
-  `]
 })
+
 export class TodoFormComponent {
   @Output() todoAdded = new EventEmitter<void>();
 

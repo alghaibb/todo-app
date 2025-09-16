@@ -24,3 +24,32 @@ body {
 .mb-4 {
   margin-bottom: 1.5rem;
 }
+
+.form-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+
+.form-field {
+  flex: 1;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.no-todos {
+  text-align: center;
+  padding: 20px;
+  color: #888;
+}

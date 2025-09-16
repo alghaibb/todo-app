@@ -53,25 +53,6 @@ import { TodoService } from '../../services/todo.service';
       </mat-card-content>
     </mat-card>
   `,
-  styles: [`
-    .todo-item {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-    }
-    
-    .completed {
-      text-decoration: line-through;
-      color: #888;
-    }
-    
-    .no-todos {
-      text-align: center;
-      padding: 20px;
-      color: #888;
-    }
-  `]
 })
 export class TodoListComponent implements OnChanges {
   @Input() refresh = false;

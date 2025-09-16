@@ -34,13 +34,6 @@ import { TodoListComponent } from './components/todo-list/todo-list.component';
       <app-todo-list [refresh]="refresh"></app-todo-list>
     </div>
   `,
-  styles: [`
-    .container {
-      padding: 20px;
-      max-width: 800px;
-      margin: 0 auto;
-    }
-  `]
 })
 export class AppComponent {
   refresh = false;
